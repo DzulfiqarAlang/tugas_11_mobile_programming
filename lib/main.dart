@@ -37,6 +37,8 @@ class Pertama extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Icon(Icons.login, size: 100, color: Colors.blue),
+            SizedBox(height: 20),
             TextFormField(
               decoration: const InputDecoration(
                 labelText: 'Masukan Username',
